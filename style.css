@@ -116,3 +116,43 @@
     font-size: 1.4rem;
 
 }
+/* hero section */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+.hero-section p{
+    font-size: 1rem;
+    height: 40px;
+    width: 80%;
+    color:white;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+    
+}
+/* card-items */
+.card-items{
+    margin: 50px 20px;
+    display: flex;
+}
+.box1{
+    height: 400px;
+    width: 25%;
+    background-color: aqua;
+    /* background-color: chocolate;
+    background-image: url("box1_image.jpg");
+    background-repeat: no-repeat;
+     */
+}
+.box1{
+    margin-bottom: 40px;;
+}
