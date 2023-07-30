@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background: #0F1111;
+    height:60px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url('amazon_logo.png');
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/* box 2 */
+.address-first{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.address-second{
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+/* 3rd div */
+
+.nav-search{
+    display: flex;
+ 
+    align-items: center;
+    width: 450px;
+    /* height: 60px; */
+    background-color: chartreuse;
+    border-radius: 4px;
+}
+.search-all{
+    width:40px;
+    height: 40px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+     border: none; 
+    font-size: 14px;
+
+}
+.search-amazon{
+   width: 96%;
+   height: 40px;
+   border: none;
+   font-size: 1rem;
+
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+}
+/* 5th div */
+.hello{
+    font-size: 12px;
+    font-weight: 100;
+}
+.account{
+    font-size: 1.2rem;
+    
+}
+.card{
+    font-size:40px;
+}
+/* menu section */
+.menu{
+    height: 40px;
+    background-color: #192020;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section{
+    display:flex;
+    margin-left: 15px;
+    width:700px;
+    /* background-color: aqua; */
+}
+.section p{
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+.seal-year p{
+    font-size: 1.4rem;
+
+}
